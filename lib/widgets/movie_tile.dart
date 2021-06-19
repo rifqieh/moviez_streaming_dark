@@ -61,23 +61,23 @@ class MovieTile extends StatelessWidget {
                 children: [
                   Icon(
                     Icons.star,
-                    color: rating >= 1 ? kYellowColor : kGreyColor,
+                    color: rating >= 1 ? kYellowColor : kWhiteColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 2 ? kYellowColor : kGreyColor,
+                    color: rating >= 2 ? kYellowColor : kWhiteColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 3 ? kYellowColor : kGreyColor,
+                    color: rating >= 3 ? kYellowColor : kWhiteColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 4 ? kYellowColor : kGreyColor,
+                    color: rating >= 4 ? kYellowColor : kWhiteColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 5 ? kYellowColor : kGreyColor,
+                    color: rating >= 5 ? kYellowColor : kWhiteColor,
                   ),
                 ],
               ),
