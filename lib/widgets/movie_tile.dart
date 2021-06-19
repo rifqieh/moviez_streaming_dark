@@ -22,8 +22,8 @@ class MovieTile extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 157,
-            height: 231,
+            width: 100,
+            height: 127,
             margin: EdgeInsets.only(right: 20),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(21),
@@ -61,23 +61,23 @@ class MovieTile extends StatelessWidget {
                 children: [
                   Icon(
                     Icons.star,
-                    color: rating >= 1 ? kYellowColor : kWhiteColor,
+                    color: rating >= 1 ? kYellowColor : kGreyColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 2 ? kYellowColor : kWhiteColor,
+                    color: rating >= 2 ? kYellowColor : kGreyColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 3 ? kYellowColor : kWhiteColor,
+                    color: rating >= 3 ? kYellowColor : kGreyColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 4 ? kYellowColor : kWhiteColor,
+                    color: rating >= 4 ? kYellowColor : kGreyColor,
                   ),
                   Icon(
                     Icons.star,
-                    color: rating >= 5 ? kYellowColor : kWhiteColor,
+                    color: rating >= 5 ? kYellowColor : kGreyColor,
                   ),
                 ],
               ),
